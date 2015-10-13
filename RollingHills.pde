@@ -15,11 +15,7 @@ void setup() {
   vertices = 1000;
   counter = 0;
   
-  points = new float[vertices][2];
   hill = new float[vertices][2];
-  starts = new ArrayList<PVector>();
-  ends = new ArrayList<PVector>();
-  triangle = new ArrayList<PVector>();
   
   hillStarts = new ArrayList<PVector>();
   hillEnds = new ArrayList<PVector>();
